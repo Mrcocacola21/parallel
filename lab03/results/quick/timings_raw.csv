@@ -1,0 +1,17 @@
+workload,method,workers,effective_workers,repeat,seconds,verified
+analysis,sequential,1,1,1,0.010848400001123082,True
+analysis,threading,4,4,1,0.013842899999872316,True
+analysis,thread_pool,2,2,1,0.012831599997298326,True
+analysis,thread_pool,4,4,1,0.013729800004512072,True
+analysis,thread_pool,8,4,1,0.013478300003043842,True
+analysis,asyncio_to_thread,4,4,1,0.015382899997348431,True
+io,sequential,1,1,1,1.01474259999668,True
+io,threading,4,4,1,0.2640393000037875,True
+io,thread_pool,2,2,1,0.5138585000022431,True
+io,thread_pool,4,4,1,0.26439070000196807,True
+io,thread_pool,8,4,1,0.2681047000005492,True
+io,asyncio_to_thread,4,4,1,0.2801076000032481,True
+python_cpu,sequential,1,1,1,0.03627400000550551,True
+python_cpu,threading,4,4,1,0.023969399997440632,True
+python_cpu,thread_pool,4,4,1,0.023719799995888025,True
+python_cpu,asyncio_to_thread,4,4,1,0.024651300002005883,True

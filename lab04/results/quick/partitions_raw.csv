@@ -1,0 +1,9 @@
+scope,partitions,repeat,seconds,verified,materialization_seconds
+with_repartition,1,1,0.1231502000009641,True,
+cached_partitions,1,1,0.07987309999589343,True,0.23348860000260174
+with_repartition,2,1,0.21747719999984838,True,
+cached_partitions,2,1,0.11113209999894025,True,0.19669419999991078
+with_repartition,4,1,0.1642308000009507,True,
+cached_partitions,4,1,0.11983750000217697,True,0.16582449999987148
+with_repartition,8,1,0.20760280000104103,True,
+cached_partitions,8,1,0.153591399997822,True,0.15952509999624453

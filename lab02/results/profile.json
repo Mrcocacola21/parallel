@@ -1,0 +1,38 @@
+{
+  "rows": 1067371,
+  "columns": 8,
+  "source_columns": [
+    "Invoice",
+    "StockCode",
+    "Description",
+    "Quantity",
+    "InvoiceDate",
+    "Price",
+    "Customer ID",
+    "Country"
+  ],
+  "source_dtypes": {
+    "Invoice": "object",
+    "StockCode": "object",
+    "Description": "object",
+    "Quantity": "int64",
+    "InvoiceDate": "object",
+    "Price": "float64",
+    "Customer ID": "float64",
+    "Country": "object"
+  },
+  "missing": {
+    "Invoice": 0,
+    "StockCode": 0,
+    "Description": 4382,
+    "Quantity": 0,
+    "InvoiceDate": 0,
+    "Price": 0,
+    "Customer ID": 243007,
+    "Country": 0
+  },
+  "duplicates": 34335,
+  "encoding": "utf-8-sig",
+  "separator": ",",
+  "limited": false
+}

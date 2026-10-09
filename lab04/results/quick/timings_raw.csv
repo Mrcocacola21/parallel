@@ -1,0 +1,3 @@
+workload,method,workers,effective_workers,repeat,seconds,verified
+engines,sequential,1,1,1,0.004301300003135111,True
+engines,spark,4,4,1,0.10939220000000205,True

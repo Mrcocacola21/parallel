@@ -1,0 +1,3 @@
+workload,method,workers,effective_workers,seconds,min_seconds,max_seconds,verified,repeats,speedup,efficiency_pct
+engines,sequential,1,1,0.004301300003135111,0.004301300003135111,0.004301300003135111,True,1,1.0,100.0
+engines,spark,4,4,0.10939220000000205,0.10939220000000205,0.10939220000000205,True,1,0.03931998810824749,0.9829997027061872

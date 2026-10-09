@@ -1,0 +1,16 @@
+workload,method,workers,effective_workers,repeat,seconds,verified
+retail,sequential,1,1,1,0.13988919999974314,True
+retail,multiprocessing,1,1,1,1.5556961000038427,True
+retail,multiprocessing,2,2,1,1.631861800000479,True
+retail,multiprocessing,4,4,1,1.8288468999962788,True
+retail,multiprocessing,8,8,1,2.145945700001903,True
+retail,sequential,1,1,2,0.12921649999771034,True
+retail,multiprocessing,1,1,2,1.5087703999961377,True
+retail,multiprocessing,2,2,2,1.6222165999934077,True
+retail,multiprocessing,4,4,2,1.703644000001077,True
+retail,multiprocessing,8,8,2,2.1335685000012745,True
+retail,sequential,1,1,3,0.13002330000017537,True
+retail,multiprocessing,1,1,3,1.5196424999958253,True
+retail,multiprocessing,2,2,3,1.7267082000034861,True
+retail,multiprocessing,4,4,3,1.7890915000025416,True
+retail,multiprocessing,8,8,3,2.169978399993852,True

@@ -1,0 +1,6 @@
+workload,method,workers,effective_workers,repeat,seconds,verified
+retail,sequential,1,1,1,0.004667599998356309,True
+retail,multiprocessing,1,1,1,0.9837718000053428,True
+retail,multiprocessing,2,2,1,1.0301158000002033,True
+retail,multiprocessing,4,4,1,1.1772726999988663,True
+retail,multiprocessing,8,8,1,1.5603177000011783,True

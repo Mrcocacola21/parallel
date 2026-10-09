@@ -1,0 +1,20 @@
+{
+  "jobs_before": [],
+  "jobs_after_transformation": [],
+  "jobs_after_collect": [
+    20
+  ],
+  "transformations": [
+    "filter",
+    "select",
+    "groupBy/agg",
+    "repartition",
+    "RDD.map",
+    "RDD.filter"
+  ],
+  "actions": [
+    "count",
+    "collect",
+    "RDD.reduce"
+  ]
+}

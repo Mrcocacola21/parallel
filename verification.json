@@ -1,0 +1,50 @@
+{
+  "dataset": {
+    "filename": "online_retail_II.csv",
+    "bytes": 94850204,
+    "sha256": "32569a66f3842a82b0d8c4d63b263c5d98a76bde5d1f65c6c01bf457e541d3a9"
+  },
+  "labs": [
+    {
+      "lab": "lab01",
+      "tasks": 9,
+      "measurements": 15,
+      "plots": 3,
+      "executed_cells": 11,
+      "verified": true
+    },
+    {
+      "lab": "lab02",
+      "tasks": 15,
+      "measurements": 15,
+      "plots": 4,
+      "executed_cells": 17,
+      "verified": true
+    },
+    {
+      "lab": "lab03",
+      "tasks": 10,
+      "measurements": 48,
+      "plots": 3,
+      "executed_cells": 12,
+      "verified": true
+    },
+    {
+      "lab": "lab04",
+      "tasks": 10,
+      "measurements": 30,
+      "plots": 2,
+      "executed_cells": 12,
+      "verified": true,
+      "partition_measurements": 24
+    }
+  ],
+  "tests": {
+    "tests": 24,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "cross_lab_consistency": true,
+  "status": "passed"
+}

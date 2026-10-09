@@ -1,0 +1,6 @@
+workload,method,workers,effective_workers,repeat,seconds,verified
+cpu,sequential,1,1,1,0.05450300000302377,True
+cpu,process_pool,1,1,1,1.2952456999992137,True
+cpu,process_pool,2,2,1,1.5038003000008757,True
+cpu,process_pool,4,4,1,1.4013258999984828,True
+cpu,process_pool,8,8,1,2.0641556000009587,True

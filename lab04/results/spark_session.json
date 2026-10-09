@@ -1,0 +1,16 @@
+{
+  "version": "4.0.3",
+  "master": "local[4]",
+  "default_parallelism": 4,
+  "local_cores": 4,
+  "configuration": {
+    "spark.app.name": "OnlineRetailII-Lab04",
+    "spark.sql.shuffle.partitions": "8",
+    "spark.driver.host": "127.0.0.1",
+    "spark.ui.enabled": "false",
+    "spark.sql.session.timeZone": "UTC",
+    "spark.driver.bindAddress": "127.0.0.1",
+    "spark.sql.adaptive.enabled": "false",
+    "spark.master": "local[4]"
+  }
+}

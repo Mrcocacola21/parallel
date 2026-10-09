@@ -1,0 +1,59 @@
+{
+  "spark": {
+    "before": 1067371,
+    "after": 1007913,
+    "removed": 59458,
+    "excluded": {
+      "exact_duplicates": 34335,
+      "cancelled": 19104,
+      "missing_required": 4275,
+      "invalid_quantity": 760,
+      "invalid_price": 984,
+      "invalid_revenue": 0
+    }
+  },
+  "pandas": {
+    "before": 1067371,
+    "excluded": {
+      "exact_duplicates": 34335,
+      "cancelled": 19104,
+      "missing_required": 4275,
+      "invalid_quantity": 760,
+      "invalid_price": 984,
+      "invalid_revenue": 0
+    },
+    "diagnostics": {
+      "cancelled": 19494,
+      "nonpositive_quantity": 22950,
+      "nonpositive_price": 6207,
+      "missing_customers": 243007,
+      "numeric_description": {
+        "Quantity": {
+          "count": 1067371.0,
+          "mean": 9.9388984711033,
+          "std": 172.70579407675342,
+          "min": -80995.0,
+          "25%": 1.0,
+          "50%": 3.0,
+          "75%": 10.0,
+          "max": 80995.0
+        },
+        "UnitPrice": {
+          "count": 1067371.0,
+          "mean": 4.649387727416239,
+          "std": 123.5530587214632,
+          "min": -53594.36,
+          "25%": 1.25,
+          "50%": 2.1,
+          "75%": 4.15,
+          "max": 38970.0
+        }
+      }
+    },
+    "after": 1007913,
+    "removed": 59458,
+    "retained_missing_customers": 228488,
+    "date_min": "2009-12-01T07:45:00",
+    "date_max": "2011-12-09T12:50:00"
+  }
+}

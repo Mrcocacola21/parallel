@@ -1,0 +1,34 @@
+[
+  {
+    "count": 251979,
+    "unique_products": 3859,
+    "unique_customers": 3012,
+    "revenue": 5043694.391,
+    "mean_price": 4.430789276090468,
+    "max_quantity": 19152.0
+  },
+  {
+    "count": 251978,
+    "unique_products": 3565,
+    "unique_customers": 3346,
+    "revenue": 5214580.453000001,
+    "mean_price": 4.105644314186159,
+    "max_quantity": 9360.0
+  },
+  {
+    "count": 251978,
+    "unique_products": 3525,
+    "unique_customers": 2993,
+    "revenue": 5012213.362000002,
+    "mean_price": 4.022415258474947,
+    "max_quantity": 74215.0
+  },
+  {
+    "count": 251978,
+    "unique_products": 3340,
+    "unique_customers": 3214,
+    "revenue": 5205772.242,
+    "mean_price": 3.738157188325965,
+    "max_quantity": 80995.0
+  }
+]

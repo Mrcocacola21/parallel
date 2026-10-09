@@ -1,0 +1,44 @@
+{
+  "before": 20000,
+  "excluded": {
+    "exact_duplicates": 211,
+    "cancelled": 517,
+    "missing_required": 32,
+    "invalid_quantity": 11,
+    "invalid_price": 6,
+    "invalid_revenue": 0
+  },
+  "diagnostics": {
+    "cancelled": 517,
+    "nonpositive_quantity": 548,
+    "nonpositive_price": 49,
+    "missing_customers": 4849,
+    "numeric_description": {
+      "Quantity": {
+        "count": 20000.0,
+        "mean": 8.826,
+        "std": 74.1391324102712,
+        "min": -1043.0,
+        "25%": 1.0,
+        "50%": 3.0,
+        "75%": 8.0,
+        "max": 5184.0
+      },
+      "UnitPrice": {
+        "count": 20000.0,
+        "mean": 4.135358,
+        "std": 20.874158863706324,
+        "min": 0.0,
+        "25%": 1.25,
+        "50%": 2.57,
+        "75%": 4.95,
+        "max": 1998.49
+      }
+    }
+  },
+  "after": 19223,
+  "removed": 777,
+  "retained_missing_customers": 4796,
+  "date_min": "2009-12-01T07:45:00",
+  "date_max": "2009-12-09T09:42:00"
+}
